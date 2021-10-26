@@ -20,3 +20,31 @@ Feedback and suggestions always welcome. :)
 ## Author
 
 * Joseph Streifel (@jstreifel-33)
+
+## Workflow Time Estimates
+
+### 10/26, State and Props
+
+---
+
+* **Number and name of feature: (Feature 1) Display images**
+* Estimate of time needed to complete: 1.5 hours
+* Start time: 3:40 PM PST
+* Finish time:
+* Actual time needed to complete:
+
+---
+
+* **Number and name of feature: (Feature 2) Allow users to vote for their favorite beast**
+* Estimate of time needed to complete: 1 hour
+* Start time:
+* Finish time:
+* Actual time needed to complete:
+
+---
+
+* **Number and name of feature: (Feature 3) Bootstrap**
+* Estimate of time needed to complete: 2 hours
+* Start time:
+* Finish time:
+* Actual time needed to complete:
