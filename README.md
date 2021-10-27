@@ -10,9 +10,9 @@ Feedback and suggestions always welcome. :)
 
 ## Technologies used
 
-* Languages: HTML, JavaScript, CSS, React
+* Languages: HTML, JavaScript, CSS, React Libraries
 * Libraries Used:
-  * None for now
+  * [React Bootstrap](https://react-bootstrap.netlify.app/)
 * Developed in Microsoft VSCode
 * Compiled using Node Package Manager
 * Hosted on Netlify
@@ -30,21 +30,27 @@ Feedback and suggestions always welcome. :)
 * **Number and name of feature: (Feature 1) Display images**
 * Estimate of time needed to complete: 1.5 hours
 * Start time: 3:40 PM PST
-* Finish time:
+* Finish time: 4:16 PM PST
 * Actual time needed to complete:
 
 ---
 
 * **Number and name of feature: (Feature 2) Allow users to vote for their favorite beast**
 * Estimate of time needed to complete: 1 hour
-* Start time:
-* Finish time:
+* Start time: 4:17 PM PST
+* Finish time: 4:50 PM PST
 * Actual time needed to complete:
 
 ---
 
 * **Number and name of feature: (Feature 3) Bootstrap**
 * Estimate of time needed to complete: 2 hours
-* Start time:
+* Start time: 5:02 PM PST
 * Finish time:
 * Actual time needed to complete:
+
+
+## Attributions
+
+<!-- Heart Icon -->
+<a target="_blank" href="https://icons8.com/icon/DFU1kReSUccu/heart">Heart</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

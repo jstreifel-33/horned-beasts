@@ -1,11 +1,11 @@
-//libraries
+//Libraries
 import React, {Component} from 'react';
-
-//Components
+//Components and assets
 import './App.css';
 import Header from './Header.js'
-import Main from './Main'
-import Footer from './Footer'
+import Main from './Main.js'
+import Footer from './Footer.js'
+
 
 class App extends Component{
   render(){

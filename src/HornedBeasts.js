@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 import heart from './assets/heart-icon.png'
+//Libraries
+import Col from 'react-bootstrap/Col'
+import Card from 'react-bootstrap/Card'
 
 
 class HornedBeasts extends Component {
-  constructor(props){
+  constructor(props) {
     super(props)
     this.state = {
       likes: 0
@@ -16,12 +19,14 @@ class HornedBeasts extends Component {
 
   render() {
     return (
-      <div id={this.props.title}>
-        <h2>{this.props.title}</h2>
-        <img src={this.props.imageUrl} alt={this.props.keyword} title={this.props.title} onClick={this.handleFav} />
-        <p>{this.props.description}</p>
-        <span><img src={heart} alt='favorites' />Favorites: {this.state.likes}</span>
-      </div>
+      <Col id={this.props.title} sm='6' md='4'>
+        <Card border='primary' style={{textAlign:'center'}}>
+          <Card.Img src={this.props.imageUrl} alt={this.props.keyword} title={this.props.title} onClick={this.handleFav} />
+          <Card.Title >{this.props.title}</Card.Title>
+          <Card.Subtitle>{this.props.description}</Card.Subtitle>
+          <Card.Footer><img src={heart} alt='favorites' />Favorite: {this.state.likes}</Card.Footer>
+        </Card>
+      </Col>
     )
   }
 }
