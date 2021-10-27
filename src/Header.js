@@ -1,9 +1,21 @@
-import React, {Component} from 'react';
+//Libraries
+import React, { Component } from 'react';
+import { Navbar } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
-class Header extends Component{
-  render(){
-    return(
-      <h1>Horned beast deep dive</h1>
+
+
+
+class Header extends Component {
+  render() {
+    return (
+      <header>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand>Horned beast deep dive</Navbar.Brand>
+          </Container>
+        </Navbar>
+      </header>
     )
   }
 }
