@@ -31,7 +31,7 @@ Feedback and suggestions always welcome. :)
 * Estimate of time needed to complete: 1.5 hours
 * Start time: 3:40 PM PST
 * Finish time: 4:16 PM PST
-* Actual time needed to complete:
+* Actual time needed to complete: 36 min
 
 ---
 
@@ -39,16 +39,15 @@ Feedback and suggestions always welcome. :)
 * Estimate of time needed to complete: 1 hour
 * Start time: 4:17 PM PST
 * Finish time: 4:50 PM PST
-* Actual time needed to complete:
+* Actual time needed to complete: 33 min
 
 ---
 
 * **Number and name of feature: (Feature 3) Bootstrap**
 * Estimate of time needed to complete: 2 hours
 * Start time: 5:02 PM PST
-* Finish time:
-* Actual time needed to complete:
-
+* Finish time: 6:50 PM PST
+* Actual time needed to complete: 1 hour 48 minutes
 
 ## Attributions
 

@@ -21,14 +21,14 @@ class Main extends Component {
 
   render() {
     return (
-
-
-      <Container fluid>
-        <Row>
-          {this.renderBeasts(beastData)}
-          <HornedBeasts title='Pixelated Goat' imageUrl={pixelBeast} description='Rare picture of the first beast' />
-        </Row>
-      </Container>
+      <main>
+        <Container fluid>
+          <Row>
+            {this.renderBeasts(beastData)}
+            <HornedBeasts title='Pixelated Goat' imageUrl={pixelBeast} description='Rare picture of the first beast' />
+          </Row>
+        </Container>
+      </main>
     )
   }
 }

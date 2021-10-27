@@ -19,7 +19,7 @@ class HornedBeasts extends Component {
 
   render() {
     return (
-      <Col id={this.props.title} sm='6' md='4'>
+      <Col id={this.props.title} xs='6' md='4'>
         <Card border='primary' style={{textAlign:'center'}}>
           <Card.Img src={this.props.imageUrl} alt={this.props.keyword} title={this.props.title} onClick={this.handleFav} />
           <Card.Title >{this.props.title}</Card.Title>

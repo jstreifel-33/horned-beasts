@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -16,4 +20,8 @@ code {
 justify-content: left;
 align-items:baseline;
 row-gap: 50px;
+}
+
+footer{
+  text-align: center;
 }
