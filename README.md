@@ -56,8 +56,8 @@ Feedback and suggestions always welcome. :)
 * **Number and name of feature: (Feature 1) Display a Modal**
 * Estimate of time needed to complete: 2 hours
 * Start time: 4:00 PM PST
-* Finish time:  PM PST
-* Actual time needed to complete: 36 min
+* Finish time: 6:39 PM PST
+* Actual time needed to complete: 2 hours 39 min
 
 ## Attributions
 
