@@ -138,5 +138,12 @@
     "description": "Fan illustration of Smaug from 'The Hobbit'",
     "keyword": "dragon",
     "horns": 100
+  },
+  {
+    "image_url": "beast-sprite.png",
+    "title": "Pixel Goat",
+    "description": "Rare image of one of the first horned beasts",
+    "keyword": "pixel",
+    "horns": 2
   }
 ]
