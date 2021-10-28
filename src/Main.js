@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 //Components and assets
 import HornedBeasts from './HornedBeasts';
-import SelectedBeast from './SelectedBeast.js';
+
 
 
 class Main extends Component {
