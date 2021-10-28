@@ -1,7 +1,6 @@
 //Libraries
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import {Container, Row, Col} from 'react-bootstrap';
 //Components and assets
 import HornedBeasts from './HornedBeasts';
 import SelectedBeast from './SelectedBeast.js';
@@ -24,10 +23,18 @@ class Main extends Component {
     })
   }
 
+  hideBeast = () => {
+    this.setState({
+      showFocus:false
+    })
+  }
+
   renderBeasts = (beasts) => {
     let renderList = beasts.map((beast, idx) => {
       return (
-        <HornedBeasts key={idx} beast={beast} selectBeast={this.selectBeast}/>
+        <Col key={idx} id={beast.title} xs='6' md='4'>
+          <HornedBeasts beast={beast} selectBeast={this.selectBeast} zoom={false}/>
+        </Col>
       )
     });
     return renderList;
@@ -42,7 +49,7 @@ class Main extends Component {
           </Row>
         </Container>
 
-        <SelectedBeast show={this.state.showFocus} beast={this.state.focusedBeast} />
+        <SelectedBeast show={this.state.showFocus} hideBeast={this.hideBeast} beast={this.state.focusedBeast} />
       </main>
     )
   }
