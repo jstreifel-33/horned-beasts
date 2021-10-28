@@ -49,6 +49,16 @@ Feedback and suggestions always welcome. :)
 * Finish time: 6:50 PM PST
 * Actual time needed to complete: 1 hour 48 minutes
 
+### 10/27, Passing Functions in Props
+
+---
+
+* **Number and name of feature: (Feature 1) Display a Modal**
+* Estimate of time needed to complete: 2 hours
+* Start time: 4:00 PM PST
+* Finish time:  PM PST
+* Actual time needed to complete: 36 min
+
 ## Attributions
 
 <!-- Heart Icon -->

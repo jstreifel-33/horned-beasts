@@ -11,6 +11,7 @@ main{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -18,7 +19,7 @@ code {
 
 .row {
 justify-content: left;
-align-items:baseline;
+align-items:flex-end;
 row-gap: 50px;
 }
 

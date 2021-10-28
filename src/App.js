@@ -5,14 +5,19 @@ import './App.css';
 import Header from './Header.js'
 import Main from './Main.js'
 import Footer from './Footer.js'
+import beastData from './data.json';
 
 
 class App extends Component{
+  
+  method = () => console.log('do thing')
+  
   render(){
+    
     return(
       <>
         <Header />
-        <Main />
+        <Main beastData={beastData} />
         <Footer />
       </>
     )
