@@ -15,6 +15,8 @@ class App extends Component{
     this.state = {
       focusedBeast: null,
       showFocus: false,
+      displayedBeasts: beastData,
+      filterHorns: 'noFilter'
     }
   }
 
@@ -39,7 +41,7 @@ class App extends Component{
     return(
       <>
         <Header />
-        <Main beastData={beastData} selectBeast={this.selectBeast}/>
+        <Main beastData={this.state.displayedBeasts} selectBeast={this.selectBeast}/>
         <Footer />
         <SelectedBeast show={this.state.showFocus} hideBeast={this.hideBeast} beast={this.state.focusedBeast} />
       </>
