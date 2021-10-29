@@ -8,7 +8,9 @@ import HornedBeasts from './HornedBeasts';
 
 class Main extends Component {
 
-  
+  handleHornSelect = (e) =>{
+    this.props.hornFilter(e.target.value);
+  }
 
   renderBeasts = (beasts) => {
     let renderList = beasts.map((beast, idx) => {
@@ -27,7 +29,7 @@ class Main extends Component {
         <Container style={{paddingBottom:'20px'}}>
           <Form>
             <FloatingLabel label="Filter by Horns">
-              <Form.Select>
+              <Form.Select onChange={this.handleHornSelect}>
                 <option value="noFilter">No Filter Selected</option>
                 <option value={1}>1 Horn</option>
                 <option value={2}>2 Horns</option>
