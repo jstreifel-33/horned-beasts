@@ -30,8 +30,8 @@ class HornedBeasts extends Component {
         <Card.Title >{this.props.beast.title}</Card.Title>
         <Card.Subtitle>{this.props.beast.description}</Card.Subtitle>
         <Card.Footer >
-          <Button onClick={this.handleFav}>
-            <img src={heart} alt='favorites' />{' ' + this.state.likes}
+          <Button size='sm' onClick={this.handleFav}>
+            <img src={heart} alt='favorites' style={{width:'20px', height:'auto'}}/>{' ' + this.state.likes}
           </Button>
         </Card.Footer>
       </Card>

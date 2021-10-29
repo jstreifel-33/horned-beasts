@@ -15,6 +15,8 @@ class App extends Component{
     this.state = {
       focusedBeast: null,
       showFocus: false,
+      displayedBeasts: beastData,
+      filterHorns: 'noFilter'
     }
   }
 
@@ -31,7 +33,26 @@ class App extends Component{
     })
   }
 
+  hornFilter = (hornSelect) => {
+    
+    const filteredByHorns = beastData.filter(beast => {
+      if(hornSelect === "noFilter"){
+        return true;
+      }else if(hornSelect === beast.horns.toString()){
+        return true;
+      }else if(hornSelect === "many" && beast.horns > 3){
+        return true;
+      }else{
+        return false;
+      }
+    })
 
+    console.log(filteredByHorns);
+    this.setState({
+      filterHorns: hornSelect,
+      displayedBeasts: filteredByHorns
+    });
+  }
   
   
   render(){
@@ -39,7 +60,7 @@ class App extends Component{
     return(
       <>
         <Header />
-        <Main beastData={beastData} selectBeast={this.selectBeast}/>
+        <Main beastData={this.state.displayedBeasts} selectBeast={this.selectBeast} hornFilter={this.hornFilter}/>
         <Footer />
         <SelectedBeast show={this.state.showFocus} hideBeast={this.hideBeast} beast={this.state.focusedBeast} />
       </>

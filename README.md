@@ -59,6 +59,16 @@ Feedback and suggestions always welcome. :)
 * Finish time: 6:39 PM PST
 * Actual time needed to complete: 2 hours 39 min
 
+### 10/28
+
+---
+
+* **Number and name of feature: (Feature 1) Filter by Number of Horns**
+* Estimate of time needed to complete: 1.7 hours
+* Start time: 6:07 PM PST
+* Finish time: 7:11 PM PST
+* Actual time needed to complete: 1 hour 4 minutes
+
 ## Attributions
 
 <!-- Heart Icon -->
