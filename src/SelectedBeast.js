@@ -11,7 +11,7 @@ export default class BeastModal extends Component {
   render() {
     return (
       <div>
-        <Modal show={this.props.show} onHide={this.props.hideBeast} size='xl'>
+        <Modal show={this.props.show} onHide={this.props.hideBeast} size='md'>
           <Modal.Header closeButton>
             <Modal.Title>Would you look at that beast. Wow.</Modal.Title>
           </Modal.Header>

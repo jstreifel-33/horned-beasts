@@ -11,7 +11,7 @@ class Main extends Component {
   renderBeasts = (beasts) => {
     let renderList = beasts.map((beast, idx) => {
       return (
-        <Col key={idx} id={beast.title} xs='6' md='4'>
+        <Col key={idx} id={beast.title} xs='4' md='3'>
           <HornedBeasts beast={beast} selectBeast={this.props.selectBeast} zoom={false}/>
         </Col>
       )
