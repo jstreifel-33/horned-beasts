@@ -8,7 +8,7 @@ import HornedBeasts from './HornedBeasts';
 
 class Main extends Component {
 
-  handleHornSelect = (e) =>{
+  handleHornSelect = (e) => {
     this.props.hornFilter(e.target.value);
   }
 
@@ -26,18 +26,22 @@ class Main extends Component {
   render() {
     return (
       <main>
-        <Container style={{paddingBottom:'20px'}}>
-          <Form>
-            <FloatingLabel label="Filter by Horns">
-              <Form.Select onChange={this.handleHornSelect}>
-                <option value="noFilter">No Filter Selected</option>
-                <option value={1}>1 Horn</option>
-                <option value={2}>2 Horns</option>
-                <option value={3}>3 Horns</option>
-                <option value="many">Many Horns</option>
-              </Form.Select>
-            </FloatingLabel>
-          </Form>
+        <Container style={{ paddingBottom: '20px' }}>
+          <Row>
+            <Col xs='5' sm='4' md='3' lg='2'>
+              <Form>
+                <FloatingLabel label="Filter by Horns">
+                  <Form.Select onChange={this.handleHornSelect}>
+                    <option value="noFilter">No Filter</option>
+                    <option value={1}>1 Horn</option>
+                    <option value={2}>2 Horns</option>
+                    <option value={3}>3 Horns</option>
+                    <option value="many">Many Horns</option>
+                  </Form.Select>
+                </FloatingLabel>
+              </Form>
+            </Col>
+          </Row>
         </Container>
         <Container>
           <Row>
